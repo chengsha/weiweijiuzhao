@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>围魏救赵</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>围魏救赵</h1>
+
+    <div id="game-container">
+        <div id="message-box">
+            <p id="story-text">欢迎来到“围魏救赵”的故事！点击“开始”按钮了解故事背景。</p>
+            <button id="start-button">开始</button>
+        </div>
+
+        <div id="game-board" class="hidden">
+            <div class="city" id="qi">齐国</div>
+            <div class="city" id="wei">魏国</div>
+            <div class="city" id="zhao">赵国</div>
+
+            <div class="army" id="wei-army">魏军</div>
+            <div class="army" id="qi-army">齐军</div>
+        </div>
+
+        <div id="choice-box" class="hidden">
+            <p>现在，你是齐国将军，请做出选择：</p>
+            <button id="choice-a">直接救援赵国</button>
+            <button id="choice-b">攻打魏国都城</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
